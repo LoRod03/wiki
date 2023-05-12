@@ -76,3 +76,9 @@ Nota: Antes de continuar se debe crear una identidad en Amazon SES (En este caso
 8. En el servicio de Cognito se valida la creación del usuario, y posteriormente se confirma la creación [img 24] [img 25]. 
 
 9. Se hace un inicio de sesión con el usuario registrado, y se valida la autenticación mediante el popout [img 26].
+
+## Backend Serverless
+1. Se crea una tabla en DynamoDB [img 27].
+2. Se crea un rol y permiso en IAM, para la tabla de dynamodb que va a emplear la función lambda [img 28] [img 29] [img 30].
+3. Se crea una función lambda, con los parametros especificados en la documentación [img 31] [img 32] [img 33] [img 34].
+4. Se valida que el código de status sea 201 [img 35].
