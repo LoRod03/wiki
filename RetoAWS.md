@@ -79,6 +79,12 @@ Nota: Antes de continuar se debe crear una identidad en Amazon SES (En este caso
 
 ## Backend Serverless
 1. Se crea una tabla en DynamoDB [img 27].
-2. Se crea un rol y permiso en IAM, para la tabla de dynamodb que va a emplear la función lambda [img 28] [img 29] [img 30].
-3. Se crea una función lambda, con los parametros especificados en la documentación [img 31] [img 32] [img 33] [img 34].
-4. Se valida que el código de status sea 201 [img 35].
+3. Se crea un rol y permiso en IAM, para la tabla de dynamodb que va a emplear la función lambda [img 28] [img 29] [img 30].
+4. Se crea una función lambda, con los parametros especificados en la documentación [img 31] [img 32] [img 33] [img 34].
+5. Se valida que el código de status sea 201 [img 35].
+
+## Restful API
+1. Se crea una resful api [img 36].
+2. Se ingresa el valor de la URL en invokeurl [img 37].
+3. Se hace inicio de sesión en al app, y se valida que el mapa se cargue [img 38]. 
+4. Una vez finalizado el laboratorio se elimina todos los servicios.
